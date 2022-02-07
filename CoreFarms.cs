@@ -539,7 +539,7 @@ public class CoreFarms
             }
             else
             {
-                Core.EnsureAccept(5121, 5123, 5124, 5131);
+                Core.EnsureAccept(5121, 5123, 5124);
 
                 Core.HuntMonster("baconcatlair", "Robo Shark", "Walking Shark 1 Destroyed", 4); // 5121 rest are locked
                 Core.HuntMonster("baconcatlair", "Robo Shark", "Walking Shark 2 Destroyed", 4); // 5121 rest are locked
@@ -547,7 +547,7 @@ public class CoreFarms
                 // Core.HuntMonster("baconcatlair", "Robo Shark", "Shark Legs Smashed", 10);
                 // Core.HuntMonster("baconcatlair", "Robo Shark", "Shark Quarters", 7);
 
-                Core.EnsureComplete(5121, 5123, 5124, 5131);
+                Core.EnsureComplete(5121, 5123, 5124);
             }
             Core.Logger($"Completed x{i++}");
         }
