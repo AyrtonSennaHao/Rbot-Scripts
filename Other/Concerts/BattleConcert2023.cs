@@ -46,10 +46,10 @@ public class BattleConcertClassQuests
         Story.KillQuest(9324, "skullhall", "Photoghoulpher");
 
         // Hashtag Dead Ugly 9322
-        Story.KillQuest(9322, "skullhall", "Necroupie");
+        Story.KillQuest(9322, "skullhall", "Photoghoulpher");
 
         // Ghoulish Fan Culture 9323
-        Story.KillQuest(9323, "skullhall", "Photoghoulpher");
+        Story.KillQuest(9323, "skullhall", "Necroupie");
 
         // No Honor Among Rockers 9321
         Story.KillQuest(9321, "skullarena", new[] { "Laryn", "Bellum" });
